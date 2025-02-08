@@ -5,6 +5,6 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/',[HomeController::class,'homepage']);
 
-Route::get('/readmore', function () {
-    return view('home.readmoreabout');
-})->name('readmore');
+Route::get('/interior', [HomeController::class, 'interior']);
+Route::get('/exterior', [HomeController::class, 'exterior']);
+Route::get('/commercial', [HomeController::class, 'commericial']);

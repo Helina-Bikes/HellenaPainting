@@ -23,70 +23,78 @@
      
       <!-- blog section end -->
       <!-- client section start -->
-      <div class="client_section layout_padding">
-         <div class="container">
-            <h1 class="client_taital">Teams</h1>
-            <div class="client_section_2">
-               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                  <ol class="carousel-indicators">
-                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                  </ol>
-                  <div class="carousel-inner">
-                     <div class="carousel-item active">
-                        <div class="client_main">
-                           <div class="box_left">
-                              <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugia</p>
-                           </div>
-                           <div class="box_right">
-                              <div class="client_taital_left">
-                                 <div class="client_img"><img src="images/client-img.png"></div>
-                                 <div class="quick_icon"><img src="images/quick-icon.png"></div>
-                              </div>
-                              <div class="client_taital_right">
-                                 <h4 class="client_name">Dame</h4>
-                                 <p class="customer_text">Customer</p>
-                              </div>
-                           </div>
-                        </div>
+      <div class="team_section layout_padding">
+   <div class="container">
+      <h1 class="team_title">Meet Our Talented Teams</h1>
+      <p class="team_intro">
+         At Hellena Painting, our teams are the backbone of our success. We believe in bringing together the best talent to deliver exceptional results for every project. Let’s introduce you to the experts who make your spaces beautiful!
+      </p>
+      <div class="team_section_2">
+         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="team_main">
+                     <div class="box_left">
+                        <p class="team_text">Our expert painter, Dame, is known for his impeccable attention to detail. With years of experience, he transforms every corner of your home into a masterpiece. His passion for color and design helps bring every client’s vision to life.</p>
                      </div>
-                     <div class="carousel-item">
-                        <div class="client_main">
-                           <div class="box_left">
-                              <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugia</p>
-                           </div>
-                           <div class="box_right">
-                              <div class="client_taital_left">
-                                 <div class="client_img"><img src="images/client-img.png"></div>
-                                 <div class="quick_icon"><img src="images/quick-icon.png"></div>
-                              </div>
-                              <div class="client_taital_right">
-                                 <h4 class="client_name">Dame</h4>
-                                 <p class="customer_text">Customer</p>
-                              </div>
-                           </div>
+                     <div class="box_right">
+                        <div class="team_taital_left">
+                           <div class="team_img"><img src="images/ownerr.png" alt="Team Member 1"></div>
+                           <div class="team_role"><img src="images/quick-icon.png" alt="Team Icon"></div>
                         </div>
-                     </div>
-                     <div class="carousel-item">
-                        <div class="client_main">
-                           <div class="box_left">
-                              <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugia</p>
-                           </div>
-                           <div class="box_right">
-                              <div class="client_taital_left">
-                                 <div class="client_img"><img src="images/client-img.png"></div>
-                                 <div class="quick_icon"><img src="images/quick-icon.png"></div>
-                              </div>
-                              <div class="client_taital_right">
-                                 <h4 class="client_name">Dame</h4>
-                                 <p class="customer_text">Customer</p>
-                              </div>
-                           </div>
+                        <div class="team_taital_right">
+                           <h4 class="team_name">Dame</h4>
+                           <p class="team_role_title">Master Painter</p>
                         </div>
                      </div>
                   </div>
                </div>
+               <div class="carousel-item">
+   <div class="team_main">
+      <div class="box_left">
+         <p class="team_text">Mariam, our lead designer, has a keen eye for style and innovation. Her creativity inspires the team to push boundaries and deliver outstanding results that perfectly match our clients’ needs and desires.</p>
+      </div>
+      <div class="box_right">
+         <div class="team_taital_left">
+            <div class="team_img">
+               <img src="images/helenastaff.png" alt="Team Member 2" class="small-team-img">
+            </div>
+            <div class="team_role">
+               <img src="images/quick-icon.png" alt="Team Icon">
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+               <div class="carousel-item">
+                  <div class="team_main">
+                     <div class="box_left">
+                        <p class="team_text">Alex, our project manager, ensures that each project runs smoothly, from start to finish. His organizational skills and leadership ensure deadlines are met, and quality is never compromised.</p>
+                     </div>
+                     <div class="box_right">
+                        <div class="team_taital_left">
+                           <div class="team_img"><img src="images/team-img3.png" alt="Team Member 3"></div>
+                           <div class="team_role"><img src="images/quick-icon.png" alt="Team Icon"></div>
+                        </div>
+                        <div class="team_taital_right">
+                           <h4 class="team_name">Alex</h4>
+                           <p class="team_role_title">Project Manager</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
             </div>
          </div>
       </div>
@@ -138,7 +146,7 @@
       <!-- copyright section start -->
       <div class="copyright_section">
          <div class="container">
-            <p class="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Free html  Templates</a></p>
+            <p class="copyright_text">2025 All Rights Reserved. </p>
          </div>
       </div>
       <!-- copyright section end -->

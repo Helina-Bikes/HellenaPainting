@@ -10,4 +10,13 @@ class HomeController extends Controller
         return view('home.homepage');
 
     }
+    public function interior(){
+        return view('home.interior');
+    }
+    public function exterior(){
+        return view('home.exterior');
+    }
+    public function commericial(){
+        return view('home.commericial');
+    }
 }

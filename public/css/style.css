@@ -167,6 +167,33 @@ html {
  :focus {
     outline: 0;
 }
+/* Ensure the dropdown shows on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Style the dropdown menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Style individual dropdown items */
+.dropdown-item {
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown-item:hover {
+    background-color: #ddd;
+}
 
 .paddind_bottom_0 {
     padding-bottom: 0 !important;
@@ -272,7 +299,10 @@ button {
     float: left;
     display: none;
 }
-
+.navbar .nav-link {
+    color: #fff !important; /* Ensure it's visible */
+    transition: color 0.3s ease; /* Smooth transition */
+}
 .navbar-light .navbar-nav .nav-link {
     font-size: 18px;
     text-transform: uppercase;
@@ -299,6 +329,35 @@ button {
     position: relative;
 }
 
+.navbar {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    position: relative;
+    z-index: 999; /* Ensures it's above other elements */
+    background-color: #781010 !important; /* Dark background to ensure visibility */
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+body .interior-bg {
+    background-color: black !important;
+    color: white !important;
+}
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    padding: 10px 15px;
+}
+.navbar .nav-link {
+    color: #fff !important;  /* Ensure white color */
+    opacity: 1 !important;   /* Ensure fully visible */
+    visibility: visible !important; /* Ensure it's not hidden */
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #f8f9fa; /* Light color on hover */
+}
 .menu_main {
     -ms-flex-direction: column;
     flex-direction: column;
@@ -474,11 +533,23 @@ button {
     color: #ffffff;
     background-color: #000d10;
 }
-
+.interior_img {
+    max-width: 60%;  /* Adjust this value to make the image smaller or larger */
+    height: auto;    /* Ensures aspect ratio is maintained */
+    object-fit: cover; /* Prevents stretching and maintains quality */
+    border-radius: 17px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow */
+ }
 .btn_main.active a {
     color: #ffffff;
     background-color: #000d10;
 }
+.small-team-img {
+    width: 150px; /* Adjust the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 50%; /* Optional: To make the image round */
+ }
+ 
 
 
 /* services section end */
