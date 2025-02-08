@@ -20,20 +20,12 @@
      @include('home.about')
       <!-- about section end -->
       <!-- blog section start -->
-      <div class="blog_section layout_padding">
-         <div class="container">
-            <h1 class="blog_taital">See Our  Video</h1>
-            <p class="blog_text">many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which</p>
-            <div class="play_icon_main">
-               <div class="play_icon"><a href="#"><img src="images/play-icon.png"></a></div>
-            </div>
-         </div>
-      </div>
+     
       <!-- blog section end -->
       <!-- client section start -->
       <div class="client_section layout_padding">
          <div class="container">
-            <h1 class="client_taital">Testimonial</h1>
+            <h1 class="client_taital">Teams</h1>
             <div class="client_section_2">
                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                   <ol class="carousel-indicators">
@@ -101,18 +93,46 @@
       <!-- client section start -->
       <!-- choose section start -->
       <div class="choose_section layout_padding">
-         <div class="container">
-            <h1 class="choose_taital">Why Choose Us</h1>
-            <p class="choose_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All </p>
-            <div class="read_bt_1"><a href="#">Read More</a></div>
-            <div class="newsletter_box">
-               <h1 class="let_text">Let Start Talk with Us</h1>
-               <div class="getquote_bt"><a href="#">Get A Quote</a></div>
-            </div>
-         </div>
+   <div class="container">
+      <h1 class="choose_taital">Why Choose Us</h1>
+      <p class="choose_text">
+         At Hellena Painting, we take pride in delivering exceptional painting services that exceed expectations. 
+         Here's why clients trust us:
+      </p>
+      <a href="javascript:void(0);" class="read_more_btn" onclick="toggleReadMore()">Read More</a>
+
+      <!-- Read More Content (Initially Hidden) -->
+      <div id="readMoreContent" style="display: none; margin-top: 15px;">
+         <p>🎨 <bold>Expert Craftsmanship</bold> – Our skilled painters bring years of experience and precision to every project.</p>
+         <p>🖌 <bold>High-Quality Materials</bold> – We use premium paints and finishes to ensure long-lasting beauty and durability.</p>
+         <p>🏠 <bold>Customized Solutions</bold> – Whether it’s interior, exterior, or decorative painting, we tailor our services to your needs.</p>
+         <p>⏳ <bold>Timely & Reliable</bold> – We value your time and complete projects efficiently without compromising quality.</p>
+         <p>💡 <bold>Creative Designs</bold> – From modern aesthetics to classic finishes, we bring creativity and innovation to your space.</p>
+         <p>🤝 <bold>Customer Satisfaction</bold> – Your happiness is our priority! We work closely with you to bring your vision to life.</p>
+         <p><bold>Let Hellena Painting transform your walls into masterpieces. Because every wall tells a story! 🎨✨</bold></p>
       </div>
+   </div>
+</div>
+
+<!-- JavaScript (Place Before </body>) -->
+<script>
+   function toggleReadMore() {
+      var content = document.getElementById("readMoreContent");
+      var button = document.querySelector(".read_more_btn");
+
+      if (content.style.display === "none" || content.style.display === "") {
+         content.style.display = "block"; // Show content
+         button.innerText = "Read Less"; // Change button text
+      } else {
+         content.style.display = "none"; // Hide content
+         button.innerText = "Read More"; // Revert button text
+      }
+   }
+</script>
+
       <!-- choose section end -->
       <!-- footer section start -->
+      
      @include('home.footer')
       <!-- footer section end -->
       <!-- copyright section start -->
