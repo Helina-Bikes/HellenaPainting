@@ -161,7 +161,9 @@ img {
     max-width: 100%;
     height: auto;
 }
-
+html {
+    scroll-behavior: smooth;
+}
  :focus {
     outline: 0;
 }
@@ -242,18 +244,28 @@ button {
 }
 
 .logo {
-    width: 100%;
-    float: left;
-    text-align: center;
-    padding: 20px 0px 50px 0px;
+    display: flex;
+    align-items: center;
+    width: 200px;
 }
 
-.logo_mobile {
-    width: 100%;
-    float: left;
-    text-align: center;
-    padding-bottom: 20px;
+.logo-img {
+    max-width: 10px;  /* Adjust size */
+    height: auto;
 }
+
+.logo_mobile .logo-img {
+    max-width: 50px; /* Smaller size for mobile */
+    height: auto;
+}
+
+.menu_main {
+    display: right;
+    justify-content: flex-end; /* Aligns the menu to the right */
+    padding-top: 5px;
+
+}
+
 
 .mobile_menu {
     width: 100%;
