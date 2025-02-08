@@ -44,7 +44,7 @@
                      </div>
                      <div class="box_right">
                         <div class="team_taital_left">
-                           <div class="team_img"><img src="images/ownerr.png" alt="Team Member 1"></div>
+                           <div class="team_img"><img src="images/ownerr.png" alt="Team Member 1" class="small-team-img"></div>
                            <div class="team_role"><img src="images/quick-icon.png" alt="Team Icon"></div>
                         </div>
                         <div class="team_taital_right">
@@ -72,29 +72,8 @@
    </div>
 </div>
 
-               <div class="carousel-item">
-                  <div class="team_main">
-                     <div class="box_left">
-                        <p class="team_text">Alex, our project manager, ensures that each project runs smoothly, from start to finish. His organizational skills and leadership ensure deadlines are met, and quality is never compromised.</p>
-                     </div>
-                     <div class="box_right">
-                        <div class="team_taital_left">
-                           <div class="team_img"><img src="images/team-img3.png" alt="Team Member 3"></div>
-                           <div class="team_role"><img src="images/quick-icon.png" alt="Team Icon"></div>
-                        </div>
-                        <div class="team_taital_right">
-                           <h4 class="team_name">Alex</h4>
-                           <p class="team_role_title">Project Manager</p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</div>
-
+              
+              
             </div>
          </div>
       </div>

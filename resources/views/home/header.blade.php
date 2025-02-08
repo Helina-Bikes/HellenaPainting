@@ -13,7 +13,7 @@
             <ul class="navbar-nav">
                <li class="nav-item"><a class="nav-link" href="{{ url('/') }}">Home</a></li>
                <li class="nav-item"><a class="nav-link" href="#about_section">About</a></li>
-               <li class="nav-item"><a class="nav-link" href="#services_section }}">Services</a></li>
+               <li class="nav-item"><a class="nav-link" href="#services_section">Services</a></li>
                <li class="nav-item"><a class="nav-link" href="#footer_section">Contact</a></li>
             </ul>
          </div>
@@ -30,16 +30,14 @@
             <li class="active"><a href="{{ url('/') }}">Home</a></li>
             <li><a href="#about_section">About</a></li>
             <li class="nav-item dropdown">
-   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Services
-   </a>
-   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-      <a class="dropdown-item" href="{{ url('/interior') }}">Interior</a>
-      <a class="dropdown-item" href="{{ url('/exterior') }}">Exterior</a>
-     
-   </div>
-</li>
-
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Services
+               </a>
+               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="{{ url('/interior') }}">Interior</a>
+                  <a class="dropdown-item" href="{{ url('/exterior') }}">Exterior</a>
+               </div>
+            </li>
             <li><a href="#footer_section">Contact us</a></li>
          </ul>
       </div>

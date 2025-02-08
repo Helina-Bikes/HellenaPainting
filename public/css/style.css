@@ -334,7 +334,7 @@ button {
     opacity: 1 !important;
     visibility: visible !important;
     position: relative;
-    z-index: 999; /* Ensures it's above other elements */
+    z-index: 1050; /* Ensures it's above other elements */
     background-color: #781010 !important; /* Dark background to ensure visibility */
 }
 
@@ -345,19 +345,46 @@ body .interior-bg {
     background-color: black !important;
     color: white !important;
 }
-.navbar .navbar-nav .nav-link {
-    color: #fff;
-    padding: 10px 15px;
-}
-.navbar .nav-link {
-    color: #fff !important;  /* Ensure white color */
-    opacity: 1 !important;   /* Ensure fully visible */
-    visibility: visible !important; /* Ensure it's not hidden */
+/* Ensure navbar is above everything */
+.navbar {
+    position: relative;
+    z-index: 1050 !important; /* Ensures it's above all other elements */
+    background-color: #781010 !important;
+    pointer-events: auto !important; /* Allow interaction with navbar */
 }
 
-.navbar .navbar-nav .nav-link:hover {
-    color: #f8f9fa; /* Light color on hover */
+/* Navbar link visibility and interaction */
+.navbar .nav-link {
+    color: #fff !important;
+    transition: color 0.3s ease;
+    pointer-events: auto !important; /* Ensure links are clickable */
 }
+
+/* Hover effect */
+.navbar .nav-link:hover {
+    color: #f8f9fa !important;
+    cursor: pointer; /* Ensure pointer cursor */
+}
+
+/* Mobile and expanded navbar styling */
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* Navbar item container */
+.navbar-nav {
+    align-items: center;
+}
+
+/* If there are buttons in the navbar */
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
 .menu_main {
     -ms-flex-direction: column;
     flex-direction: column;
@@ -545,12 +572,14 @@ body .interior-bg {
     background-color: #000d10;
 }
 .small-team-img {
-    width: 150px; /* Adjust the width of the image */
+    width: 350px; /* Adjust the width of the image */
     height: auto; /* Maintain the aspect ratio */
-    border-radius: 50%; /* Optional: To make the image round */
+    border-radius: 0%; /* Optional: To make the image round */
  }
  
-
+ .choose_section {
+    padding-top: 200px;  /* Adds space between the carousel and "Why Choose Us" section */
+}
 
 /* services section end */
 

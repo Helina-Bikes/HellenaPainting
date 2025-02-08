@@ -5,21 +5,21 @@
                      <div class="container">
                         <h1 class="banner_taital"> Where Every Wall Tells a Story</h1>
                         <p class="banner_text">we turn every stroke into a story, creating spaces that inspire and leave a lasting impression</p>
-                        <div class="read_bt"><a href="#">Get A Quote</a></div>
+                     
                      </div>
                   </div>
                   <div class="carousel-item">
                      <div class="container">
                         <h1 class="banner_taital">Transforming Spaces with Color</h1>
                         <p class="banner_text">We bring life and personality to your home or business with expert painting services</p>
-                        <div class="read_bt"><a href="#">Get A Quote</a></div>
+
                      </div>
                   </div>
                   <div class="carousel-item">
                      <div class="container">
                         <h1 class="banner_taital">Transforming Spaces with Color</h1>
-                        <p class="banner_text">There are many variations of passages of Lorem Ipsum available, but the majority have sufferedThere are ma available, but the majority have suffered</p>
-                        <div class="read_bt"><a href="#">Get A Quote</a></div>
+                        <p class="banner_text">We bring life and personality to your home or business with expert painting services</p>
+                    
                      </div>
                   </div>
                </div>
