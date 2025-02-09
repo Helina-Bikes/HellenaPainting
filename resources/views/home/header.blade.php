@@ -13,7 +13,7 @@
             <ul class="navbar-nav">
                <li class="nav-item"><a class="nav-link" href="{{ url('/') }}">Home</a></li>
                <li class="nav-item"><a class="nav-link" href="#about_section">About</a></li>
-               <li class="nav-item"><a class="nav-link" href="#services_section">Services</a></li>
+               <li<li class="nav-item"><a class="nav-link" href="#services_section">Services</a></li>
                <li class="nav-item"><a class="nav-link" href="#footer_section">Contact</a></li>
             </ul>
          </div>

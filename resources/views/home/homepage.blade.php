@@ -4,6 +4,9 @@
       <!-- basic -->
      @include('home.homecss')
    </head>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+
    <body>
       <!-- header section start -->
       <div class="header_section">
@@ -40,7 +43,7 @@
                <div class="carousel-item active">
                   <div class="team_main">
                      <div class="box_left">
-                        <p class="team_text">Our expert painter, Dame, is known for his impeccable attention to detail. With years of experience, he transforms every corner of your home into a masterpiece. His passion for color and design helps bring every client’s vision to life.</p>
+                        <p class="team_text">Our expert painter, Deng, is known for his impeccable attention to detail. With years of experience, he transforms every corner of your home into a masterpiece. His passion for color and design helps bring every client’s vision to life.</p>
                      </div>
                      <div class="box_right">
                         <div class="team_taital_left">
@@ -48,7 +51,7 @@
                            <div class="team_role"><img src="images/quick-icon.png" alt="Team Icon"></div>
                         </div>
                         <div class="team_taital_right">
-                           <h4 class="team_name">Dame</h4>
+                           <h4 class="team_name">Leek Deng</h4>
                            <p class="team_role_title">Master Painter</p>
                         </div>
                      </div>
@@ -57,7 +60,7 @@
                <div class="carousel-item">
    <div class="team_main">
       <div class="box_left">
-         <p class="team_text">Mariam, our lead designer, has a keen eye for style and innovation. Her creativity inspires the team to push boundaries and deliver outstanding results that perfectly match our clients’ needs and desires.</p>
+         <p class="team_text">Our lead designer, has a keen eye for style and innovation. Her creativity inspires the team to push boundaries and deliver outstanding results that perfectly match our clients’ needs and desires.</p>
       </div>
       <div class="box_right">
          <div class="team_taital_left">

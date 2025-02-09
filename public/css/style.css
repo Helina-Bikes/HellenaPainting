@@ -420,6 +420,18 @@ body .interior-bg {
     padding: 10px 20px;
     border-radius: 10px;
 }
+.navbar {
+    position: relative;
+    z-index: 1050 !important;
+}
+.menu_main {
+    position: relative;
+    z-index: 1049;
+}
+.navbar .nav-link, .menu_main li a {
+    pointer-events: auto !important;
+    cursor: pointer !important;
+}
 
 .menu_main li a:hover {
     color: #ffffff;
@@ -1126,4 +1138,10 @@ body .interior-bg {
 
 .copyright_text a:hover {
     color: #e27141;
+}
+.location_main
+
+{
+    width: 4%;
+    size: 6px;
 }
