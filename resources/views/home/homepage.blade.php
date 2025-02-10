@@ -92,14 +92,14 @@
       <a href="javascript:void(0);" class="read_more_btn" onclick="toggleReadMore()">Read More</a>
 
       <!-- Read More Content (Initially Hidden) -->
-      <div id="readMoreContent" style="display: none; margin-top: 15px;">
-         <p>🎨 <bold>Expert Craftsmanship</bold> – Our skilled painters bring years of experience and precision to every project.</p>
-         <p>🖌 <bold>High-Quality Materials</bold> – We use premium paints and finishes to ensure long-lasting beauty and durability.</p>
-         <p>🏠 <bold>Customized Solutions</bold> – Whether it’s interior, exterior, or decorative painting, we tailor our services to your needs.</p>
-         <p>⏳ <bold>Timely & Reliable</bold> – We value your time and complete projects efficiently without compromising quality.</p>
-         <p>💡 <bold>Creative Designs</bold> – From modern aesthetics to classic finishes, we bring creativity and innovation to your space.</p>
-         <p>🤝 <bold>Customer Satisfaction</bold> – Your happiness is our priority! We work closely with you to bring your vision to life.</p>
-         <p><bold>Let Hellena Painting transform your walls into masterpieces. Because every wall tells a story! 🎨✨</bold></p>
+      <div id="readMoreContent" style="display: none; margin-top: 15px; font_size: 100px;">
+         <p>🎨 <strong>Expert Craftsmanship</strong> – Our skilled painters bring years of experience and precision to every project.</p>
+         <p>🖌 <strong>High-Quality Materials</strong> – We use premium paints and finishes to ensure long-lasting beauty and durability.</p>
+         <p>🏠 <strong>Customized Solutions</strong> – Whether it’s interior, exterior, or decorative painting, we tailor our services to your needs.</p>
+         <p>⏳ <strong>Timely & Reliable</strong> – We value your time and complete projects efficiently without compromising quality.</p>
+         <p>💡 <strong>Creative Designs</strong> – From modern aesthetics to classic finishes, we bring creativity and innovation to your space.</p>
+         <p>🤝 <strong>Customer Satisfaction</strong> – Your happiness is our priority! We work closely with you to bring your vision to life.</p>
+         <p><strong>Let Hellena Painting transform your walls into masterpieces. Because every wall tells a story! 🎨✨</strong></p>
       </div>
    </div>
 </div>
