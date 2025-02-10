@@ -8,27 +8,16 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
 
    <body>
-      <!-- header section start -->
       <div class="header_section">
         @include('home.header')
-         <!-- banner section start -->
         @include('home.banner')
-         <!-- banner section end -->
       </div>
-      <!-- header section end -->
-      <!-- services section start -->
+    
      @include('home.services')
-      <!-- services section end -->
-      <!-- about section start -->
      @include('home.about')
-      <!-- about section end -->
-      <!-- blog section start -->
-     
-      <!-- blog section end -->
-      <!-- client section start -->
-      <div class="team_section layout_padding">
+   <div class="team_section layout_padding">
    <div class="container">
-      <h1 class="team_title">Meet Our Talented Teams</h1>
+      <h1 class="team_title"style="padding-top: 40px;">Meet Our Talented Teams</h1>
       <p class="team_intro">
          At Hellena Painting, our teams are the backbone of our success. We believe in bringing together the best talent to deliver exceptional results for every project. Let’s introduce you to the experts who make your spaces beautiful!
       </p>
@@ -37,7 +26,6 @@
             <ol class="carousel-indicators">
                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
                <div class="carousel-item active">
@@ -73,13 +61,10 @@
          </div>
       </div>
    </div>
+</div> 
 </div>
-
-              
-              
-            </div>
-         </div>
-      </div>
+</div>
+</div>
       <!-- client section start -->
       <!-- choose section start -->
       <div class="choose_section layout_padding">
@@ -90,7 +75,6 @@
          Here's why clients trust us:
       </p>
       <a href="javascript:void(0);" class="read_more_btn" onclick="toggleReadMore()">Read More</a>
-
       <!-- Read More Content (Initially Hidden) -->
       <div id="readMoreContent" style="display: none; margin-top: 15px; font_size: 100px;">
          <p>🎨 <strong>Expert Craftsmanship</strong> – Our skilled painters bring years of experience and precision to every project.</p>
@@ -109,7 +93,6 @@
    function toggleReadMore() {
       var content = document.getElementById("readMoreContent");
       var button = document.querySelector(".read_more_btn");
-
       if (content.style.display === "none" || content.style.display === "") {
          content.style.display = "block"; // Show content
          button.innerText = "Read Less"; // Change button text

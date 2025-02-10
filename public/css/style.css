@@ -262,8 +262,11 @@ button {
     float: left;
     background-image: url(../images/vila.png);
     min-height: 300px;
-    background-size: 100%;
-    padding: 0px 0px 20px 0px;
+  
+    padding: 5px 0px 20px 0px;
+    background-size: cover; /* Ensure the image covers the section */
+    background-position: center 270px;
+    background-color: white; 
 }
 
 .bg-light {
@@ -298,94 +301,68 @@ button {
     width: 100%;
     float: left;
     display: none;
-}
-.navbar .nav-link {
-    color: #fff !important; /* Ensure it's visible */
-    transition: color 0.3s ease; /* Smooth transition */
-}
-.navbar-light .navbar-nav .nav-link {
+}/* Set background color for the navbar */
+.header_nav {
+    background-color: #333 !important; /* Dark background for visibility */
+    padding: 0 5 0 5; /* Padding for spacing */
+    height: 170px;
+    margin-left: 20px;  /* Left margin */
+    margin-right: 20px; /* Right margin */
+    margin-top: 10px;   /* Top margin */
+    margin-bottom: 10px; 
+ }
+ 
+ /* Navbar brand (logo) color */
+ .header_nav .navbar-brand {
+    color: #fff !important; /* White for the brand name */
+ }
+ 
+ 
+ /* Navbar link color */
+ .header_nav .nav-link {
+    color: #fff !important; /* Ensure links are visible (white) */
     font-size: 18px;
     text-transform: uppercase;
-    color: #fff;
-}
-
-.navbar-nav {
-    align-items: center;
-}
-
-.btn:not(:disabled):not(.disabled) {
-    cursor: pointer;
-    border-radius: 20px;
-    border: 2px solid #fff;
-    color: #fff;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 20px;
     padding-left: 20px;
-}
-
-.nav-item {
-    position: relative;
-}
-
-.navbar {
-    display: block !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-    position: relative;
-    z-index: 1050; /* Ensures it's above other elements */
-    background-color: #781010 !important; /* Dark background to ensure visibility */
-}
-
-.navbar .navbar-brand {
-    color: #fff;
-}
-body .interior-bg {
-    background-color: black !important;
-    color: white !important;
-}
-/* Ensure navbar is above everything */
-.navbar {
-    position: relative;
-    z-index: 1050 !important; /* Ensures it's above all other elements */
-    background-color: #781010 !important;
-    pointer-events: auto !important; /* Allow interaction with navbar */
-}
-
-/* Navbar link visibility and interaction */
-.navbar .nav-link {
-    color: #fff !important;
     transition: color 0.3s ease;
-    pointer-events: auto !important; /* Ensure links are clickable */
-}
-
-/* Hover effect */
-.navbar .nav-link:hover {
-    color: #f8f9fa !important;
-    cursor: pointer; /* Ensure pointer cursor */
-}
-
-/* Mobile and expanded navbar styling */
-.navbar-expand-lg .navbar-nav .nav-link {
+ }
+ 
+ /* Navbar link hover effect */
+ .header_nav .nav-link:hover {
+    color: #f8f9fa !important; /* Light color on hover */
+    background-color: transparent; /* Keep background transparent */
+ }
+ 
+ /* Set navbar toggler button color for mobile view */
+ .header_nav .navbar-toggler-icon {
+    background-color: #fff; /* White toggler icon */
+ }
+ 
+ /* Ensure navbar links are clickable and appear above other content */
+ .header_nav {
+    position: relative;
+    z-index: 1050 !important; /* Keep navbar above other elements */
+ }
+ 
+ /* Mobile and expanded navbar styling */
+ .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 20px;
     padding-left: 20px;
-}
-
-/* Navbar item container */
-.navbar-nav {
+ }
+ 
+ /* Navbar item container (align items in center) */
+ .navbar-nav {
     align-items: center;
-}
-
-/* If there are buttons in the navbar */
-.btn:not(:disabled):not(.disabled) {
-    cursor: pointer;
-    border-radius: 20px;
-    border: 2px solid #fff;
-    color: #fff;
-}
-
-.menu_main {
+ }
+ 
+ /* Ensure the active link gets highlighted */
+ .header_nav .nav-item.active .nav-link {
+    color: #007bff !important; /* Active link gets blue color */
+ }
+ 
+ /* Styles for menu_main */
+ .menu_main {
     -ms-flex-direction: column;
     flex-direction: column;
     padding-left: 0;
@@ -394,16 +371,17 @@ body .interior-bg {
     width: 100%;
     text-align: center;
     margin: 0 auto;
-}
-
-.menu_main ul {
-    margin: 0px;
-    padding: 0px;
+ }
+ 
+ /* Menu items styling */
+ .menu_main ul {
+    margin: 0;
+    padding: 0;
     list-style: none;
     display: inline-flex;
-}
-
-.menu_main li {
+ }
+ 
+ .menu_main li {
     float: left;
     padding-left: 10px;
     padding-right: 10px;
@@ -413,45 +391,27 @@ body .interior-bg {
     padding-bottom: 10px;
     color: #fff;
     border-radius: 40px;
-}
-
-.menu_main li a {
+ }
+ 
+ .menu_main li a {
     color: #ffffff;
     padding: 10px 20px;
     border-radius: 10px;
-}
-.navbar {
-    position: relative;
-    z-index: 1050 !important;
-}
-.menu_main {
-    position: relative;
-    z-index: 1049;
-}
-.navbar .nav-link, .menu_main li a {
+    text-decoration: none; /* Remove underline */
+ }
+ 
+ /* Hover effect for menu items */
+ .menu_main li a:hover {
+    color: #ffffff;
+    background-color: #2b2278; /* Add background color on hover */
+ }
+ 
+ /* Ensuring mobile navbar is visible */
+ .menu_main li a {
     pointer-events: auto !important;
     cursor: pointer !important;
-}
-
-.menu_main li a:hover {
-    color: #ffffff;
-    background-color: #2b2278;
-}
-
-.mb-lg-0,
-.my-lg-0 {
-    margin-bottom: 0!important;
-    width: 20%;
-    float: left;
-}
-
-.header_main {
-    width: 100%;
-    background-image: url(../images/header-bg.png);
-    background-size: 100%;
-    padding: 10px 0px 0px 0px;
-}
-
+ }
+ 
 
 /* header section end */
 
@@ -506,7 +466,9 @@ body .interior-bg {
     background-color: #2b2278;
     color: #ffffff;
 }
-
+.navbar {
+    margin-bottom: 20px; /* Adjust this value as needed */
+}
 
 /* banner section end */
 
@@ -871,7 +833,7 @@ body .interior-bg {
 
 .choose_taital {
     width: 100%;
-    font-size: 85px;
+    font-size: 75px;
     color: #1f1f1f;
     font-weight: bold;
     text-align: center;
